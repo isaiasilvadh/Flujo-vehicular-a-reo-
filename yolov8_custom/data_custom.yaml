@@ -1,0 +1,12 @@
+train: ../train/images
+val: ../valid/images
+
+nc: 4
+names: ['Automovil', 'Bus', 'Motocicleta', 'Vehiculo Pesado']
+
+roboflow:
+  workspace: cars-8qxh9
+  project: cars-dxlvx
+  version: 8
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cars-8qxh9/cars-dxlvx/dataset/8
